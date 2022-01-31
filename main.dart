@@ -120,9 +120,11 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: const Text('ok')),
                 ],
               );
-            });
+            }
+          );
+        }
       }
-    });
+    );
   }
 
   void _onPermissionSet(BuildContext context, QRViewController ctrl, bool p) {
